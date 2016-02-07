@@ -32,11 +32,6 @@ namespace PasswordGenerator
 				{
 					return int.Parse(arg);
 				}
-
-				if (arg == "short")
-				{
-					return 14;
-				}
 			}
 
 			return 42;
